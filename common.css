@@ -1,0 +1,369 @@
+.border-red{
+    border: 1px solid red;
+  }
+  
+  .border-blue{
+  border: 1px solid blue;
+  }
+  
+  .border-green{
+      border: 1px solid green;
+  }
+  
+  .border-purple{
+   border: 1px solid purple;
+  }
+  .border-black{
+      border: 1px solid black;
+  }
+  
+  .flex{
+      display: flex;
+  }
+  
+  .cursor-pointer{
+      cursor: pointer;
+  }
+  .justify-content-space-between{
+      justify-content: space-between;
+  }
+
+/* color style*/
+
+  .main-color {
+      background-color: #f5df4d;
+  }
+
+
+.back-black {
+    background-color: black;
+}
+
+  .color-black{
+    color: black !important;
+}
+
+.back-white {
+    background-color: white;
+}
+
+.gray {
+    color: #939597 
+}
+
+.back-gray {
+    background-color: #939597 
+}
+
+
+
+.color-white {
+    color: white;
+}
+
+.border-yellow {
+    border-left: 2px solid #f5df4d;
+}
+
+
+.align-items-center {
+    align-items: center;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0px auto;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+  
+  .head{
+      
+  margin: 0px auto;
+      display: flex;
+      justify-content: center;
+      width: 150px;
+      background: #f5df4d;
+      text-transform: capitalize; 
+      color: black;
+  }
+  
+  
+  .header{
+  font-weight: 600;
+  color: #363434;
+  margin: 0px;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+       
+  }
+  
+  .main-measure{
+      width: 1349px;
+      height: 700px;
+  
+  }
+  
+  .main-header{
+      width: 60%;
+   height: 10%;
+   margin: 0px auto;
+   padding-top: 60px;
+   margin-bottom: 40px;
+  
+  
+  }
+  
+  .justify-content-flex-start{
+      justify-content: flex-start;
+  }
+  
+  .justify-content-center {
+      justify-content: center;
+  }
+
+  .justify-content-space-around{
+      justify-content: space-around;
+  }
+
+  .align-items-center{
+      align-items: center;
+  }
+  
+ 
+  
+  .width-65{ 
+      width: 65%;
+  }
+  .width-95{
+      width: 95%;
+  }
+  .width-80{
+      width: 80%;
+  }
+  .width-70{
+      width: 70%;
+  }
+  .width-60{
+      width: 60%;
+  }
+  .width-99{
+      width: 99%;
+  }
+  
+.w-150 {
+    width: 150px;
+}
+
+.w-fit {
+width: fit-content;
+}
+
+
+
+  .margin-top-60 {
+      margin-top: 62px;
+  }
+
+  /* element common width*/
+  .col-1 {
+      width: calc((100%/12)*1);
+
+  }
+
+  .col-2{
+      width: calc((100%/12)*2);
+
+  }
+
+  .col-3{
+    width: calc((100%/12)*3);
+    
+}
+
+.col-4{
+    width: calc((100%/12)*4);
+    
+}
+
+.col-5{
+    width: calc((100%/12)*5);
+    
+}
+
+.col-6{
+    width: calc((100%/12)*6);
+    
+}
+
+.col-7{
+    width: calc((100%/12)*7);
+    
+}
+
+.col-8{
+    width: calc((100%/12)*8);
+    
+}
+
+.col-9{
+    width: calc((100%/12)*9);
+    
+}
+
+.col-10{
+    width: calc((100%/12)*10);
+    
+}
+
+.col-11{
+    width: calc((100%/12)*11);
+    
+}
+
+.col-12{
+    width: calc((100%/12)*12);
+    
+}
+
+.height-390 {
+    height: 390 !important;
+}
+
+
+/* text styles */
+
+.text-unset {
+    font-size: unset;
+}
+
+.text-xl {
+    font-size:x-large
+}
+
+.text-xxl {
+    font-size: xx-large;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+.text-l {
+    font-size: larger;
+}
+
+.gray{
+    color: #b1adad;
+}
+
+/*text weight*/
+
+.w-100{
+    width: 100%;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.py-15 {
+    padding: 0px 15px;
+}
+
+.py-25 {
+    padding: 0px 25px;
+}
+
+.h-600{
+    height: 600px;
+}
+
+/*position style*/
+.p-absolute {
+    position: absolute;
+}
+
+.p-relative {
+    position: relative;
+}
+
+
+
+
+/*  margin style*/
+
+.m-0{
+    margin: 0px;
+}
+
+.mx-10 {
+    margin: 0px 10px;
+}
+
+.m-top-60 {
+    margin-top: 60px;
+}
+
+.m-right-60 {
+    margin-right: 60px;
+}
+
+.m-bottom-40{
+    margin-bottom: 40px;
+}
+
+.m-auto {
+    margin: 0px auto;
+}
+
+
+.h-inherit {
+    height: inherit;
+}
+
+.h-50{
+    height: 50px;
+}
+
+.border-none {
+    border: none;
+
+}
+
+/*padding stye */
+
+
+.px-10{
+    padding: 0px 10px;
+}
+
+
+.p-left-35 {
+    padding-left: 35px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.p-top-60 {
+    padding-top: 60px;
+}
