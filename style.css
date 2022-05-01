@@ -76,9 +76,7 @@ body{
 .box-menu-mobile .underline {
     display: none;
 }
-.box-menu-mobile:hover .underline {
-    display: block;
-}
+
 
 
 
@@ -87,7 +85,7 @@ body{
 
 .box-menu-social  {
     justify-content: space-between;
-    width: 120px;   
+    width: 120px;
 }
 
  .face-icon, .insta-icon, .twitter-icon {
@@ -392,7 +390,7 @@ font-size: medium;
 
 }
 
-.block-button  :hover{
+.block-button:hover{
     background-color: black;
     color: white;
     transition: all 1s ease;
@@ -401,7 +399,7 @@ font-size: medium;
 
 /* portfolio section style*/
 .project-menu ul{
-    
+    display: flex;
     align-items: center;
     color: gray;
     font-weight: 500;
