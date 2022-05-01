@@ -180,30 +180,28 @@ lg- >1200px
         font-size: 15px;
     }
    
-section {
-    width: 39rem;
-}
+
 
      .box {
         
-         width: 39.5rem;
+         width: 39rem;
      }
    
      .container {
-         width: 39.5rem;
+         width: 39rem;
          height: 100%;
          
      }
    
      .slider-box {
-         width: 39.5rem;
+         width: 39rem;
          height: 100vh;
      }
 
      .slider-box .container { height: 100%;}
 
      .slider-img, .slider-effect {
-         width: 39.5rem;
+         width: 39rem;
      }
    
      .slider-content p{ margin: 0px;}
@@ -276,7 +274,9 @@ section {
          grid-template-columns: 1fr;
      }
    
-    
+    .faq-content img{
+        width: 400px;
+    }
    
    .file-card {
        height: 100%;
