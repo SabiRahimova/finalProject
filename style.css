@@ -87,26 +87,86 @@ body{
 
 .box-menu-social  {
     justify-content: space-between;
-    width: 100px;
-    font-size: larger;
-    
+    width: 120px;   
 }
 
-      
- .box-menu-social i:hover{
-     font-size: 25px;
-     color: blue;
-   
- }
+ .face-icon, .insta-icon, .twitter-icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+    }
+
+    
+    
+    .icon-text{
+        font-size: 15px;
+        background-color: black;
+        color: white;
+        border-radius: 10px;
+        height: 30px;
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        opacity: 0;
+        position: absolute;
+        z-index: 1;
+        pointer-events: none;
+        transition: all 0.5s ease;
+    
+    
+    }
+    
+    .face-icon:hover .icon-text {
+        opacity: 1;
+        pointer-events: auto;
+        left: 50px;
+    
+    }
+    
+    .insta-icon:hover .icon-text {
+        opacity: 1;
+        left: 40px
+    
+    }
+    
+    .twitter-icon:hover .icon-text {
+        opacity: 1;
+        left: 50px;
+    
+    }
+    
+    .face-icon:hover i{
+        color: blue;
+    }
+
+    .twitter-icon:hover i{
+        color: blue;
+    }
+     .insta-icon :hover i{
+    color: blue;
+}
+    
+    .box-menu-social i {
+        font-size: 20px;
+        
+    }
+    
+    span a{
+        color: black;
+    }
+
     
  /*  second section style start  */
 
  .slider-box {
      width: 100%;
-     height: 100vh;
+     height: 600px;
+     
  }
 
- .slider-box .container {height: 100%;}
+ 
 
 .slider-img {
     height: 100vh;
@@ -150,6 +210,7 @@ position: absolute;
     height: 50px;
     margin-top: 15px;
     font-size: larger;
+    
 
 }
 
