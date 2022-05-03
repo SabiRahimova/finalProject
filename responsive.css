@@ -354,7 +354,7 @@ lg- >1200px
  
 .box-menu-basis {
  background-color: #2c3e50;
- width: 33rem;
+ width: 36rem;
  height: 100vh;
  left: 100%;
  right: 0;
@@ -379,7 +379,7 @@ lg- >1200px
   }
 
  .slider-img, .slider-effect {
-     width: 40rem;
+     width: 42rem;
  }
 
  .main-header {
@@ -434,7 +434,7 @@ lg- >1200px
 
  .slider-img, .slider-effect {
      height: 100%;
-     width: 38rem;
+     width: 42rem;
  }
 
 .file-card {
@@ -452,7 +452,7 @@ lg- >1200px
 
 
  .resume, .service, .file, .client, .footer, .contact, .about, .portfolio, .faq  {
-     width: 40rem;
+     width: 42rem;
  }
 
  .faq-content img{
