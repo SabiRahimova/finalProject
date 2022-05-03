@@ -162,18 +162,22 @@ body{
 
 .slider-img {
     height: 100vh;
-    background-image: url("/project.images/intro-bg.jpg");
+    background-image: url("project.images/intro-bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
  background-position: center center;
     width: 100%;
     position: absolute;
+    left: 0;
+    right: 0;
 }
 .slider-effect {
     background: rgb(0, 0, 0, 0.6) ;
     height: 100vh;
     position: absolute;
     width: 100%;
+    left: 0;
+    right: 0;
 }
 
 .slider-content {
@@ -487,7 +491,7 @@ font-size: medium;
 /* file section style*/
 
 .img-file img{
-background-image: url("/project.images/intro-bg-2.jpg");
+background-image: url("project.images/intro-bg-2.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 position: center center;

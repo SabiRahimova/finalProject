@@ -394,8 +394,8 @@ lg- >1200px
     
  }
 
- .slider-img, .slider-effect {
-     height: 100%;
+ .about {
+     margin-top: 60px;
  }
 
  .slider-content h1{
