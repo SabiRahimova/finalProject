@@ -201,14 +201,14 @@ lg- >1200px
 
    
      .slider-box {
-         width: 39rem;
+        
          height: 100vh;
      }
 
      .slider-box .container { height: 100%;}
 
      .slider-img, .slider-effect {
-         width: 39rem;
+         width: 40rem;
      }
    
      .slider-content p{ margin: 0px;}
@@ -378,7 +378,9 @@ lg- >1200px
       content: "\X";
   }
 
- 
+ .slider-img, .slider-effect {
+     width: 40rem;
+ }
 
  .main-header {
      width: 100%;
@@ -450,7 +452,7 @@ lg- >1200px
 
 
  .resume, .service, .file, .client, .footer, .contact, .about, .portfolio, .faq  {
-     width: 38rem;
+     width: 40rem;
  }
 
  .faq-content img{
