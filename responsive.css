@@ -208,7 +208,7 @@ lg- >1200px
      .slider-box .container { height: 100%;}
 
      .slider-img, .slider-effect {
-         width: 32rem;
+         width: 30rem;
      }
    
      .slider-content p{ margin: 0px;}
@@ -250,11 +250,18 @@ lg- >1200px
     }
 
     .resume, .service, .resume, .file, .file-card, .img-file, .img-effect, .client, .footer, .file-content, .contact {
-        width: 32rem;
+        width: 30rem;
     }
 
+    .resume-experience, .resume-education {
+        padding: 0px;
+    }
+
+
+
+
     .edu-row {
-        width: 34rem;
+        width: 30rem;
     }
    
      .main-header {
@@ -377,7 +384,7 @@ lg- >1200px
   }
 
  .slider-img, .slider-effect {
-     width: 32rem;
+     width: 30rem;
  }
 
  .main-header {
@@ -430,9 +437,15 @@ lg- >1200px
       grid-template-columns: 1fr;
   }
 
+  .slider-box {
+      position: relative;
+  }
  .slider-img, .slider-effect {
      height: 100%;
-     width: 32rem;
+    width: 100%;
+
+     
+     
  }
 
 .file-card {
@@ -446,11 +459,13 @@ lg- >1200px
  .client-row {
      margin-top: 0px;
  }
- 
+ .resume-experience, .resume-education {
+    padding: 0px;
+}
 
 
  .resume, .service, .file, .client, .footer, .contact, .about, .portfolio, .faq  {
-     width: 32rem;
+     width: 30rem;
  }
 
  .faq-content img{
