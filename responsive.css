@@ -184,11 +184,11 @@ lg- >1200px
 
      .box {
         
-         width: 38rem;
+         width: 32rem;
      }
    
      .container {
-         width: 38rem;
+        
          height: 100%;
          
      }
@@ -208,7 +208,7 @@ lg- >1200px
      .slider-box .container { height: 100%;}
 
      .slider-img, .slider-effect {
-         width: 38rem;
+         width: 32rem;
      }
    
      .slider-content p{ margin: 0px;}
@@ -250,7 +250,7 @@ lg- >1200px
     }
 
     .resume, .service, .resume, .file, .file-card, .img-file, .img-effect, .client, .footer, .file-content, .contact {
-        width: 38rem;
+        width: 32rem;
     }
 
     .edu-row {
@@ -298,9 +298,7 @@ lg- >1200px
     }
     
    
-    .client .container h{
-   
-    }
+    
    
    
    
@@ -379,7 +377,7 @@ lg- >1200px
   }
 
  .slider-img, .slider-effect {
-     width: 38rem;
+     width: 32rem;
  }
 
  .main-header {
@@ -434,7 +432,7 @@ lg- >1200px
 
  .slider-img, .slider-effect {
      height: 100%;
-     width: 38rem;
+     width: 32rem;
  }
 
 .file-card {
@@ -452,7 +450,7 @@ lg- >1200px
 
 
  .resume, .service, .file, .client, .footer, .contact, .about, .portfolio, .faq  {
-     width: 38rem;
+     width: 32rem;
  }
 
  .faq-content img{

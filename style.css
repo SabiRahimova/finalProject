@@ -496,11 +496,11 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center center;
 height: inherit ;
-width: 38rem;
+width: 32rem;
 }
 
 .img-effect {
-    width: 38rem;
+    width: 32rem;
     background: rgb(0 0 0 / 72%)  ;
     position: absolute;
     height: inherit;
