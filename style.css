@@ -496,11 +496,11 @@ background-size: cover;
 background-repeat: no-repeat;
 background-position: center center;
 height: inherit ;
-width: 42rem;
+width: 38rem;
 }
 
 .img-effect {
-    width: 42rem;
+    width: 38rem;
     background: rgb(0 0 0 / 72%)  ;
     position: absolute;
     height: inherit;
@@ -510,7 +510,7 @@ width: 42rem;
 
 .file {
     height: 507px;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 
