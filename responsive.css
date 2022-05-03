@@ -317,9 +317,34 @@ lg- >1200px
  }
 
 
-   .box-menu-basis a{
-        
-    color: white;}
+   .box-menu-basis a{       
+    color: white;
+    width: 60px;
+
+}
+
+    .underline:hover{
+        padding-bottom: 0px;
+        border-bottom-width:  0px;
+    
+    }
+
+
+    .box-menu-basis li {
+        border: 1px solid blueviolet;
+        border-radius: 20px;
+        width: 40%;
+        display: flex;
+       justify-content: center;
+       line-height: 20px;
+       margin: 15px 0px;
+       
+
+    }
+
+    .box-menu-basis li:hover {
+        background-color: rgb(178, 63, 92);
+    }
 
     
    .checkbtn {
