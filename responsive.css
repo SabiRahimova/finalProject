@@ -430,7 +430,10 @@ lg- >1200px
       grid-template-columns: 1fr;
   }
 
- 
+ .slider-img, .slider-effect {
+     height: 100%;
+     width: 38rem;
+ }
 
 .file-card {
     height: 100%;
@@ -446,12 +449,12 @@ lg- >1200px
  
 
 
- .resume, .service, .file, .client, .footer, .contact, .about, .portfolio, .faq,  {
-    width: 35rem;
-}
+ .resume, .service, .file, .client, .footer, .contact, .about, .portfolio, .faq  {
+     width: 38rem;
+ }
 
-.faq-content img{
+ .faq-content img{
     width: 300px;
-}
+  }
 
 }
